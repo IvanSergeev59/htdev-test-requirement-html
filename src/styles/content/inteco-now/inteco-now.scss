@@ -1,0 +1,10 @@
+@import "__top-block/inteco-now__top-block.scss";
+@import "__bottom-block/inteco-now__bottom-block.scss";
+.inteco-now {
+    display: flex;
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    flex-direction: column;
+}
+

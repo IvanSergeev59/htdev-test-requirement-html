@@ -1,0 +1,8 @@
+@import "__heading/our-projects__heading.scss";
+@import "__slider/our-projects__slider.scss";
+.our-projects {
+    display: flex;
+    position: relative;
+    width: 100%;
+    flex-direction: column;
+}

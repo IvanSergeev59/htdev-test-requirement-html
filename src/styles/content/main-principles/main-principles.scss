@@ -1,0 +1,15 @@
+@import "__main-block/main-principles__main-block.scss";
+.main-principles {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.main-principles h2 {
+    font-size: 32px;
+    line-height: 38px;
+    color: #4764b0
+
+}

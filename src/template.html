@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+  <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Ivan Sergeev"> 
+  <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+  <title><%= htmlWebpackPlugin.options.title %></title>
+  </head>
+
+  <body>
+    <div class="root">
+      <header class="header">
+        <img src="<%=require('./images/logo.jpg')%>" class="header__logo" alt="inteco_logo"><img src="<%=require('./images/lang-link.jpg')%>" class="header__lang-link" alt ="change lang">
+      </header>
+      <div class="content">
+        <section class="we-are">
+          <div class="we-are__left-block">
+            <h2>Кто мы</h2>
+            <p>«ИНТЕКО» – прогрессивный девелопер с государственным участием.</p>
+            <p>Компания активно участвует в развитии городов: возводит современные жилые комплексы и социально значимые объекты, 
+              создает комфортные общественные пространства, формируя новые точки притяжения и современную среду для комфортной жизни.</p>  
+            <p>Компания включена в перечень системообразующих организаций строительной отрасли. Президент компании – Александр Николаев является членом Общественного совета при Минстрое РФ.</p>
+          </div>
+          <div class="we-are__right-block"></div>
+        </section>
+        <section class="our-projects">
+          <div class="our-projects__heading">
+            <h2>Наши проекты</h2>
+            <p>За 19 лет на рынке недвижимости компания реализовала более 80 проектов в Москве, 
+              Ростове-на-Дону, Санкт-Петербурге и Ленинградской области и построила более 5 млн кв. м.</p>
+          </div>
+          <div class="our-projects__slider">
+            <div class="our-projects__slider_picture"></div>
+            <div class="our-projects__slider_text">
+              <h3>Среди знаковых проектов:</h3>
+              <p>Легендарный элитный комплекс в Хамовниках «Садовые кварталы», ЖК бизнес-класса «West Garden», ЖК комфорт-класса «Вестердам»,<br> ЖК «Шуваловский», ЖК «DOMINION»,<br>
+                 ЖК «Гранд-паркъ», Здания МГУ имени<br> М. В. Ломоносова, Авторский дом<br> премиум-класса на Врубеля, 4, 
+                Элитный комплекс апартаментов Balchug Residence, элитный комплекс апарт-резиденций Balchug Viewpoint.</p>
+            </div>
+            <div class="our-projects__slider_arrows"></div>
+          </div>
+          <div class="our-projects__heading"><p>Из года в год проекты «ИНТЕКО» побеждают в престижных российских и международных отраслевых премиях, что подтверждает признание
+             профессионального сообщества и любовь наших клиентов. Компания стала обладателям уже более 35 наград и продолжает запускать новые яркие проекты на рынке недвижимости.</p></div>
+        </section>
+        <section class="inteco-now">
+          <div class="inteco-now__top-block">
+            <div class="inteco-now__top-block_heading">
+              <h3>Интеко сейчас</h3>
+              <p>Центральный офис «ИНТЕКО» расположен в Москве,<br> также у компании есть представительства в Ростове-на-Дону<br> и Санкт-Петербурге.
+                На данный момент «ИНТЕКО» находится<br> в стадии реализации стратегической программы трансформации:</p>
+            </div>
+            <div class="inteco-now__top-block_stats">
+              <h4>БОЛЕЕ <br><span>2000</span> ЧЕЛОВЕК</h4>
+              <p>Общая численность персонала</p>
+            </div>
+            <div class="inteco-now__top-block_stats">
+              <h4>ОКОЛО <br><span>1,2</span> МЛН КВ. М.</h4>
+              <p>Объем текущего строительства</p>
+            </div>
+          </div>
+          <div class="inteco-now__bottom-block">
+            <div class="inteco-now__bottom-block_text">
+              <ul>
+                <li>В 2019 г. состоялся ребрендинг </li>
+                <li>Компания одной из первых в России перешла<br> на работу по новым правилам строительной отрасли, предполагающей использование эскроу-счетов
+                <li>Происходит комплексная цифровизация<br> бизнес-процессов</li>
+                <li>Запускаются новые масштабные<br> девелоперские проекты</li>
+                <li>Компания реализует нестандартные<br> имиджевые проекты, поддерживает<br> творчество современных российских<br> художников по созданию крупных уличных скульптур </li>
+              </ul>
+            </div>
+            <div class="inteco-now__bottom-block_image"></div>
+          </div>
+        </section>
+        <section class="main-principles">
+          <h2>Основные принципы работы с персоналом</h2>
+          <div class="main-principles__main-block">
+            <div class="main-principles__main-block_develop">
+              <p>Непрерывное развитие персонала</p>
+              <div class="main-block_develop-image"></div>
+            </div>
+            <div class="main-principles__main-block_divider"></div>
+            <div class="main-principles__main-block_text">
+              <p>«ИНТЕКО» стремится к формированию обучающей рабочей среды, в которой новые знания и опыт сотрудники получают естественным путем – в рамках текущей деятельности, в процессах рабочего взаимодействия, 
+                через участие в девелоперских и трансформационных проектах. На внутрикорпоративных ресурсах формируется база знаний и инструментарий, с помощью которых сотрудники могут самостоятельно изучать интересующие их темы. 
+                В компании есть у кого учиться: представители «ИНТЕКО» являются авторитетными экспертами, 
+                чье мнение публикуют РБК, «Коммерсантъ», «Ведомости», ТАСС, «Интерфакс», «Строительная газета» и чьи интервью транслируют Business FM и<br> РБК-ТВ.</p>
+            </div>
+          </div>
+        </section>
+        <section class="company-offer">
+          <h2>Компания предлагает своим сотрудникам</h2>
+          <div class="company-offer__main-block">
+            <div class="company-offer__main-block_image"></div>
+            <div class="company-offer__main-block_text">
+              <ul>
+                <li>работу в центре Москвы, в 1 минуте ходьбы от ст. метро «Красные ворота»</li>
+                <li>полное соблюдение норм трудового законодательства</li>
+                <li>возможность адаптации графика работы под индивидуальные потребности</li>
+                <li>возможность удаленного режима работы </li>
+                <li>своевременную выплату заработной платы</li>
+                <li>прозрачную систему KPI и премирования по итогам работы за год </li>
+                <li>корпоративные программы скидок и выгодные предложения от партнеров</li>
+                <li>материальную поддержку </li>
+                <li>добровольное медицинское страхование (включая стоматологию, страхование выезжающих за рубеж, а также льготную стоимость страховки для членов семьи сотрудника) </li>
+                <li>широкие возможности для совместного времяпрепровождения вне работы: спортивные и интеллектуальные игры (в компании есть самообразующиеся группы по футболу, бегу и интеллектуальным викторинам),
+                   корпоративные праздники, участие в мероприятиях, проводимых Советом молодых специалистов строительной отрасли г. Москвы, и многое другое.               
+                  </li>
+              </ul>
+            </div>
+          </div>
+          <div class="company-offer__arrow"></div>
+        </section>
+      </div>
+    <div class="vertical-line we-are-line"></div>
+    <div class="vertical-line inteco-now-vertical-line"></div>
+    <div class="horizontal-line our-project-line"></div>
+    <div class="horizontal-line inteco-now-line"></div>
+    <div class="horizontal-line inteco-now-line-2"></div>
+    <div class="horizontal-line company-offer-line"></div>
+    </div>
+    
+  </body>
+</html>

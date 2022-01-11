@@ -1,0 +1,11 @@
+@import "_picture/our-projects__slider_picture.scss";
+@import "_text/our-projects__slider_text.scss";
+@import "_arrows/our-projects__slider_arrows.scss";
+
+.our-projects__slider {
+    width: 100%;
+    display: flex;
+    position: relative;
+    margin: 0px;
+    margin-top: 55px;
+}

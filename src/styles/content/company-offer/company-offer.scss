@@ -1,0 +1,14 @@
+@import "__main-block/company-offer__main-block.scss";
+@import "__arrow/company-offer__arrow.scss";
+.company-offer {
+    display: flex;
+    position: relative;
+    width: 100%;    
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+
+.company-offer h2{
+    margin-left: 330px;
+    margin-top: 105px;
+}

@@ -1,0 +1,11 @@
+@import "we-are/we-are.scss";
+@import "our-projects/our-projects.scss";
+@import "inteco-now/inteco-now.scss";
+@import "main-principles/main-principles.scss";
+@import "company-offer/company-offer.scss";
+.content {
+    display: flex;
+    position: relative;
+    background-color: #f5f0f0;
+    flex-direction: column;
+}

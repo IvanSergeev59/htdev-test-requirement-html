@@ -1,0 +1,9 @@
+@import "_image/inteco-now__bottom-block_image.scss";
+@import "_text/inteco-now__bottom-block_text.scss";
+.inteco-now__bottom-block {
+    display: flex;
+    position: relative;
+    width: 100%;
+    flex-direction: row;
+    margin-top: 54px
+}

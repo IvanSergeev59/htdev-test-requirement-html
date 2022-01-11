@@ -1,0 +1,30 @@
+.horizontal-line {    
+    height: 2px;
+    position: absolute;
+    background-image: url('/src/images/horizontal_line.jpg');    
+    z-index: 1; 
+}
+
+.our-project-line {
+    width: 952px;
+    top:1690px;
+    left: 296px;
+}
+
+.inteco-now-line {
+    width: 300px;
+    top: 1937px;
+    left: -3px;
+}
+
+.inteco-now-line-2 {
+    width: 952px;
+    top: 2560px;
+    left: 296px;
+}
+
+.company-offer-line {
+    width: 300px;
+    left: -2px;
+    top: 3069px
+}
