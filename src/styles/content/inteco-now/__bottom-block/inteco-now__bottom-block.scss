@@ -7,3 +7,30 @@
     flex-direction: row;
     margin-top: 54px
 }
+
+@media (min-width: 1020px) and (max-width: 1339px) {
+    .inteco-now__bottom-block {
+        display: flex;
+        position: relative;
+        width: 100%;
+        flex-direction: row;
+        margin-top: 34px
+    }
+}
+
+@media (min-width: 700px) and (max-width: 1019px) {
+    .inteco-now__bottom-block {
+        display: flex;
+        position: relative;
+        width: 100%;
+        flex-direction: row;
+        margin-top: 15px;
+    }
+}
+
+@media (max-width: 699px) {
+    .inteco-now__bottom-block {
+        flex-direction: column;
+        margin-top: 35px;
+    }
+}

@@ -7,3 +7,17 @@
     left: 58px;
     bottom: 108px
 }
+
+@media (min-width: 1020px) and (max-width: 1339px) {
+    .company-offer__arrow {
+        left: 20px;
+        bottom: 15px
+    }
+}
+
+@media (min-width: 700px) and (max-width: 1019px) {
+    .company-offer__arrow {
+        left: 20px;
+        bottom: 15px
+    }
+}

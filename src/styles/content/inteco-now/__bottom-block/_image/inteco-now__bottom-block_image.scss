@@ -7,3 +7,36 @@
     margin-left: -140px;
     z-index: 1;
 }
+
+@media (min-width: 1020px) and (max-width: 1339px) {
+    .inteco-now__bottom-block_image {
+        width: 60%;
+        height:399px;
+        margin-left: -5%;
+    }
+}
+
+@media (min-width: 700px) and (max-width: 1019px) {
+    .inteco-now__bottom-block_image {
+        width: 65%;
+        height: 350px;
+        margin-left: -15%;
+    }
+}
+
+@media (max-width: 699px) {
+    .inteco-now__bottom-block_image {
+        width: 93.3%;
+        height: auto;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url('/src/images/inteco-now_mobile.jpg');
+        margin-left: 6.7%;
+        margin-top: -30px;
+    }
+    .inteco-now__bottom-block_image {
+        content: "";
+        display: block;
+        padding-top: 58.5%; 
+    }
+}

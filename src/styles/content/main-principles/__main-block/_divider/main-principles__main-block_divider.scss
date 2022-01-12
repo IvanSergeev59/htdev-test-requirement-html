@@ -5,3 +5,27 @@
     margin-left: 4%;
     margin-top: 16px
 }
+
+@media (min-width: 1020px) and (max-width: 1339px) {
+    .main-principles__main-block_divider {        
+        margin-top: 10px
+    }
+}
+
+@media (min-width: 700px) and (max-width: 1019px) {
+    .main-principles__main-block_divider {        
+        width: 96.72%;
+        margin: 0 auto;
+        margin-top: 10px
+    }
+}
+
+@media (max-width: 699px) {
+    .main-principles__main-block_divider {        
+        width: 85.72%;
+        background-image: url('/src/images/divider_mobile.jpg');
+        margin: 0 auto;
+        margin-top: 3px;
+        height: 13px
+    }
+}

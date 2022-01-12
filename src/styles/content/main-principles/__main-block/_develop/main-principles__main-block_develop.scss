@@ -19,3 +19,44 @@
     height: 18px;
     margin-top: 5px;
 }
+
+@media (min-width: 1020px) and (max-width: 1339px) {
+    .main-principles__main-block_develop {
+        margin-top: 25px;
+    }
+
+    .main-principles__main-block_develop p {
+        font-size: 16px;
+        line-height: 20px;
+        margin: 0px
+    }
+}
+
+@media (min-width: 700px) and (max-width: 1019px) {
+    .main-principles__main-block_develop {
+        margin: 0 auto;
+        margin-top: 10px;
+        width: 96.72%;
+    }
+
+    .main-principles__main-block_develop p {
+        font-size: 16px;
+        line-height: 20px;
+        margin: 0px;
+    }
+}
+
+@media (max-width: 699px) {
+    .main-block_develop-image {
+        display: none
+    }
+    .main-principles__main-block_develop {
+        margin-top: 32px;
+    }
+    .main-principles__main-block_develop p {
+        font-size: 14px;
+        line-height: 20px;
+        margin-top: 0px;
+        margin-left: 4%
+    }
+}

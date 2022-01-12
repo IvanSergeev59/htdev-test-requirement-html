@@ -7,3 +7,18 @@
     right: 60px;
     bottom: 55px;
 }
+
+@media (min-width: 1020px) and (max-width: 1339px) {
+    .our-projects__slider_arrows {
+        width: 20px;
+        height: 18px;
+        right: 50px;
+        bottom: 30px;
+    }
+}
+
+@media (max-width: 699px) {
+    .our-projects__slider_arrows {
+        display: none;
+    }
+}

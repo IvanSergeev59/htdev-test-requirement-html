@@ -25,3 +25,84 @@
     margin-top: 36px;
     margin-bottom: 90px;
 }
+
+@media (min-width: 1020px) and (max-width: 1339px) {
+    .our-projects__heading {
+        width: 45%.6%;
+        margin-left: 370px;
+        margin-top: 40px;
+    }
+
+    .our-projects__heading h2 {
+        font-size: 26px;
+        line-height: 16px;   
+    }
+
+    .our-projects__heading p {
+        font-size: 13px;
+        line-height: 20px;
+        margin-top: 15px;
+        width: 100%;
+        margin-left: 0px
+    }
+
+    .our-projects__heading:last-of-type {
+        margin-left: 370px;
+        margin-top: 25px;
+        margin-bottom: 40px;
+    }
+}
+
+@media (min-width: 700px) and (max-width: 1019px) {
+    .our-projects__heading {
+        width: 45.6%;
+        margin-left: 260px;
+        margin-top: 20px;
+    }
+
+    .our-projects__heading h2 {
+        font-size: 18px;
+        line-height: 18px;   
+    }
+
+    .our-projects__heading p {
+        font-size: 12px;
+        line-height: 18px;
+        margin-top: 10px;
+    }
+
+    .our-projects__heading:last-of-type {
+        margin-left: 260px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 699px) {
+    .our-projects__heading {
+        width: 100%;
+        margin: 0px;
+    }
+
+    .our-projects__heading h2 {
+        margin-left: 10%;
+        margin-top: 35px;
+        width: 83.33%;
+        font-size: 24px;
+        line-height: 28px;   
+    }
+
+    .our-projects__heading p {
+        font-size: 12px;
+        line-height: 18px;
+        margin-top: 10px;
+        width: 83.33%;
+        margin-left: 10%;
+    }
+    .our-projects__heading:last-of-type {
+        margin-left: 0.5%;
+        width: 98.3%;
+        margin-top: 16px;
+        margin-bottom: 10px;
+    }
+}

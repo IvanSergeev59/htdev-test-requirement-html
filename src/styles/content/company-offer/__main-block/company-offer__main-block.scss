@@ -1,9 +1,28 @@
 @import "_image/company-offer__main-block_image.scss";
 @import "_text/company-offer__main-block_text.scss";
+@import "_dots/company-offer__main-block_dots.scss";
 .company-offer__main-block {
     display: flex;
     position: relative;
     width: 100%;
     flex-direction: row;
     margin-top: 35px;
+}
+
+@media (min-width: 1020px) and (max-width: 1339px) {
+    .company-offer__main-block {
+        margin-top: 15px;
+    }
+}
+
+@media (min-width: 700px) and (max-width: 1019px) {
+    .company-offer__main-block {
+        margin-top: 10px;
+    }
+}
+@media (max-width: 699px) {
+    .company-offer__main-block {
+        flex-direction: column;
+        margin-top: 27px;
+    }
 }

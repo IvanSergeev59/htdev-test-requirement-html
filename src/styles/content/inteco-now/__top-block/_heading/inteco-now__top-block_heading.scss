@@ -19,3 +19,48 @@
     width: 100%;
     text-align: left;
 }
+
+@media (min-width: 1020px) and (max-width: 1339px) {
+    .inteco-now__top-block_heading {
+        width: 45%;
+    }
+
+    .inteco-now__top-block_heading h3 {
+        font-size: 26px;
+        line-height: 16px; 
+    }
+
+    .inteco-now__top-block_heading p {
+        font-size: 13px;
+        line-height: 20px;
+        margin: 0px;
+        margin-top: 15px;
+        width: 100%;
+        text-align: left;
+    }
+}
+
+@media (min-width: 700px) and (max-width: 1019px) {
+    .inteco-now__top-block_heading {
+        width: 45%;
+    }
+
+    .inteco-now__top-block_heading p {
+        font-size: 12px;
+        line-height: 18px;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 699px) {
+    .inteco-now__top-block_heading {
+        width: 42.55%;
+    }
+
+    .inteco-now__top-block_heading p {
+        font-size: 12px;
+        line-height: 18px;
+        margin-top: 13px;
+        margin-left: 1%
+    }
+}

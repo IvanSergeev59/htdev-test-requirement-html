@@ -28,3 +28,35 @@
     left: -2px;
     top: 3069px
 }
+
+@media (min-width: 1020px) and (max-width: 1339px) {
+    .our-project-line {
+        width: 670px;
+        top: 1090px;
+        left: 260px;
+    }
+
+    .inteco-now-line {
+        width: 335px;
+        top: 1263px;
+        left: 0px;
+    }
+
+    .inteco-now-line-2 {
+        width: 595px;
+        top: 1680px;
+        left: 335px;
+    }
+}
+
+@media (min-width: 700px) and (max-width: 1019px) {
+    .horizontal-line {    
+        display: none;
+    }
+}
+
+@media (max-width: 699px) {
+    .horizontal-line {    
+        display: none;
+    }
+}

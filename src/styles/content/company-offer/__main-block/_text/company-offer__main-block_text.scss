@@ -32,3 +32,61 @@
     position: relative;
     margin-left: -16px;
 }
+
+@media (min-width: 1020px) and (max-width: 1339px) {
+    .company-offer__main-block_text {
+        width: 510px;
+        height: 450px;
+        margin-left: -20px;
+    }
+
+    .company-offer__main-block_text ul {
+        margin-top: 20px;
+        padding-left: 44px;
+    }
+
+    .company-offer__main-block_text li {
+        font-size: 13px;
+        line-height: 20px;
+        margin-bottom: 10px;
+        max-width: 490px;
+    }
+}
+
+@media (min-width: 700px) and (max-width: 1019px) {
+    .company-offer__main-block_text {
+        width: 45%;
+        height: 665px;
+        margin-left: -5%;
+    }
+
+    .company-offer__main-block_text ul {
+        margin-top: 10px;
+        padding-left: 33px;
+    }
+
+    .company-offer__main-block_text li {
+        font-size: 12px;
+        line-height: 18px;
+        margin-bottom: 5px;
+        max-width: 98%;
+    }
+
+    .company-offer__main-block_text li::before {
+        content: "—";
+        font-size: 12px;
+        font-weight: 700;
+        left: -10px;
+        line-height: 18px; 
+        position: relative;
+        margin-left: -12px;
+    }
+}
+
+@media (max-width: 699px) {
+    .company-offer__main-block_text {
+        width: 93.33%;
+        margin-left: 6.67%;
+        margin-top: -40px
+    }
+}

@@ -21,3 +21,29 @@
     left: 296px;
     top: 3069px
 }
+
+@media (min-width: 1020px) and (max-width: 1339px) {
+    .we-are-line {
+        height: 1095px;
+        top:-4px;
+        left: 260px;
+    }
+
+    .inteco-now-vertical-line {
+        height: 418px;
+        left: 335px;
+        top: 1263px;
+    }
+}
+
+@media (min-width: 700px) and (max-width: 1019px) {
+    .vertical-line {
+        display: none;
+    }
+}
+
+@media (max-width: 699px) {
+    .vertical-line {
+        display: none;
+    }
+}

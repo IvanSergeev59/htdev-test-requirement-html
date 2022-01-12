@@ -4,3 +4,27 @@
     margin-top: 48px;
     margin-left: 957px
 }
+
+@media (min-width: 1020px) and (max-width: 1339px) {
+    .header__lang-link {
+        height: 20px;
+        width: 20px;
+        margin-top: 25px;
+        margin-left: 700px
+    }
+}
+
+@media (min-width: 700px) and (max-width: 1019px) {
+    .header__lang-link {
+        height: 20px;
+        width: 20px;
+        margin-top: 20px;
+        margin-left: 420px
+    }
+}
+
+@media (max-width: 699px) {
+    .header__lang-link {
+       display: none;
+    }
+}

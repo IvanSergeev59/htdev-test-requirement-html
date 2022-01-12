@@ -1,9 +1,49 @@
 .we-are__right-block {
     width: 920px;
     height: 570px;
-    background-size: cover;
+    background-size: contain;
     background-image: url('/src/images/Layer\ 2.jpg');
     background-repeat: no-repeat;
     margin-left: -220px;
     z-index: 1;
+}
+
+@media (min-width: 1020px) and (max-width: 1339px) {
+    .we-are__right-block {
+        width: 60%;
+        height: auto;
+        background-size: cover;
+        background-image: url('/src/images/Layer\ 2.jpg');
+        background-repeat: no-repeat;
+        margin-left: -10%;
+    }
+}
+
+@media (min-width: 700px) and (max-width: 1019px) {
+    .we-are__right-block {
+        width: 65%;
+        height: auto;
+        background-size: contain;
+        background-image: url('/src/images/Layer\ 2.jpg');
+        background-repeat: no-repeat;
+        margin-left: -15%;
+    }
+}
+
+@media (max-width: 699px) {
+    .we-are__right-block {
+        $width: 93.33%;         
+        width: $width;
+        height: auto;
+        background-image: url('/src/images/Layer_2_mobile.jpg');
+        background-repeat: no-repeat;
+        margin: 0px;
+        margin-left: 6.67%
+    }
+
+    .we-are__right-block:before {
+        content: "";
+            display: block;
+            padding-top: 62.14%;  
+        }
 }

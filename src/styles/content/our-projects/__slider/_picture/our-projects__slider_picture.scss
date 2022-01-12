@@ -4,5 +4,35 @@
     height: 554px;
     background-repeat: no-repeat;
     background-size: cover;
-    z-index: 0;
+    z-index: 2;
+}
+
+@media (min-width: 1020px) and (max-width: 1339px) {
+    .our-projects__slider_picture {
+        width: 60%;
+        height: 400px;
+    }
+}
+
+@media (min-width: 700px) and (max-width: 1019px) {
+    .our-projects__slider_picture {
+        width: 65%;
+        height: 250px;
+    }
+}
+
+@media (max-width: 699px) {
+    .our-projects__slider_picture {
+        background-image: url('/src/images/our-project_mobile.jpg');
+        width: 93.33%;
+        height: auto;
+        margin-left: 0px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .our-projects__slider_picture::before {
+        content: "";
+        display: block;
+        padding-top: 60%; 
+    }
 }

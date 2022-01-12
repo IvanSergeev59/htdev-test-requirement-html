@@ -7,3 +7,34 @@
     background-image: url('/src/images/inteko.jpg');
     z-index: 2;
 }
+
+@media (min-width: 1020px) and (max-width: 1339px) {
+    .company-offer__main-block_image {
+        width: 440px;
+        height: 402px;
+        margin-top: 25px;
+    }
+}
+
+@media (min-width: 700px) and (max-width: 1019px) {
+    .company-offer__main-block_image {
+        width: 65%;
+        height: 400px;
+        margin-top: 125px;
+    }
+}
+
+@media (max-width: 699px) {
+    .company-offer__main-block_image {
+        width: 93.33%;
+        height: auto;
+        margin-top: 0px;
+        background-image: url('/src/images/company_offer_mobile.jpg');
+    }
+
+    .company-offer__main-block_image::before {
+        content: '';
+        padding-top: 72.14%;
+        display: block;
+    }
+}

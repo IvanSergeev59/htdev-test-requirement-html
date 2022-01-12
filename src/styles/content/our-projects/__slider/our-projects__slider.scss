@@ -9,3 +9,27 @@
     margin: 0px;
     margin-top: 55px;
 }
+
+@media (min-width: 1020px) and (max-width: 1339px) {
+    .our-projects__slider {
+        width: 100%;
+        display: flex;
+        position: relative;
+        margin: 0px;
+        margin-top: 35px;
+    }
+}
+
+@media (min-width: 700px) and (max-width: 1019px) {
+    .our-projects__slider {
+        margin-top: 15px;
+    }
+}
+
+@media (max-width: 699px) {
+    .our-projects__slider {
+        width: 100%;
+        flex-direction: column;
+        margin-top: 25px
+    }   
+}

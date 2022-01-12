@@ -7,3 +7,26 @@
     width: 91%;
     margin: 0 auto;
 }
+
+@media (min-width: 1020px) and (max-width: 1339px) {
+    .inteco-now__top-block {
+        width: 95%;
+    }
+}
+
+@media (min-width: 700px) and (max-width: 1019px) {
+    .inteco-now__top-block {
+        width: 95%;
+    }
+}
+@media (max-width: 699px) {
+    .inteco-now__top-block {
+        width: 94%;
+        margin-left: 6%;
+    }
+    .inteco-now__top-block-mobile {
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 40%;
+    }
+}

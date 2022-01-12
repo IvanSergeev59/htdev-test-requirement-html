@@ -10,6 +10,41 @@
 .main-principles h2 {
     font-size: 32px;
     line-height: 38px;
-    color: #4764b0
+    color: #4764b0;
+}
 
+@media (min-width: 1020px) and (max-width: 1339px) {
+    .main-principles {
+        margin-top: 20px;
+    }
+
+    .main-principles h2 {
+        font-size: 26px;
+        line-height: 16px; 
+    }
+}
+
+@media (min-width: 700px) and (max-width: 1019px) {
+    .main-principles {
+        margin-top: 10px;
+    }
+
+    .main-principles h2 {
+        font-size: 18px;
+        line-height: 18px; 
+        margin-left: 10px;
+    }
+}
+
+@media (max-width: 699px) {
+    .main-principles {
+        margin-top: 30px;
+    }
+    .main-principles h2 {
+        margin-left: 6.67%;
+        width: 85.33%;
+        font-size: 24px;
+        line-height: 28px; 
+        padding-bottom: 5px;
+    }
 }

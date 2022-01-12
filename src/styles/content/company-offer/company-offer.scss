@@ -7,8 +7,42 @@
     flex-direction: column;
     padding-bottom: 50px;
 }
-
 .company-offer h2{
     margin-left: 330px;
     margin-top: 105px;
+}
+
+@media (min-width: 1020px) and (max-width: 1339px) {
+    .company-offer {
+        padding-bottom: 30px;
+    }
+
+    .company-offer h2{
+        margin-left: 250px;
+        margin-top: 45px;
+    }
+}
+
+@media (min-width: 700px) and (max-width: 1019px) {
+    .company-offer {
+        padding-bottom: 10px;
+    }
+
+    .company-offer h2{
+        margin: 0 auto;
+        margin-top: 20px
+    }
+}
+
+@media (max-width: 699px) {
+    .company-offer {
+        padding-bottom: 10px;
+        flex-direction: column;
+    }
+    .company-offer h2{
+        width: 85%;       
+        margin: 0px;
+        margin-top: 57px;
+        margin-left: 10%;
+    }
 }
