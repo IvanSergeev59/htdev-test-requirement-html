@@ -4,20 +4,29 @@
     background-repeat: no-repeat;
     background-size: cover;
     z-index: 2;
-    -webkit-transform: scale(1.5);
-	-moz-transform: scale(1.5);
-	-o-transform: scale(1.5);
-	transform: scale(1);
-	-webkit-transition: transform ease-in-out .5s, opacity ease-in-out .5s;
-	-moz-transition: transform ease-in-out .5s, opacity ease-in-out .5s;
-	-o-transition: transform ease-in-out .5s, opacity ease-in-out .5s;
-	transition: transform ease-in-out .5s, opacity ease-in-out .5s; 
-    animation: ani 2s forwards;   
+    transition: 0.6s ease;
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
       
-      @keyframes ani {
-        0% {width: 0%;}
-        100% {width: 920px;}
-      }
+    @-webkit-keyframes fade {
+        from {
+            opacity: .4
+        }
+        to {
+            opacity: 1
+        }
+    }
+    @keyframes fade {
+        from {
+            opacity: .4
+        }
+        to {
+            opacity: 1
+        }
+    }
+
 }
 
 .slide1 {
@@ -76,13 +85,11 @@
 
 @media (max-width: 699px) {
     .our-projects__slider_picture {
-        background-image: url('/src/images/our-project_mobile.jpg');
         width: 93.33%;
         height: auto;
         margin-left: 0px;
         background-repeat: no-repeat;
         background-size: cover;
-        animation: none;
     }
     .our-projects__slider_picture::before {
         content: "";
