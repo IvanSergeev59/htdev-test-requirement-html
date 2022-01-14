@@ -4,8 +4,14 @@
 .inteco-now__top-block {
     display: flex;
     position: relative;
-    width: 91%;
+    width: 90%;
     margin: 0 auto;
+}
+.inteco-now__top-block-mobile {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 40%;
 }
 
 @media (min-width: 1020px) and (max-width: 1339px) {

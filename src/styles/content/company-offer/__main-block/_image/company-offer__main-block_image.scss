@@ -3,9 +3,47 @@
     height: 578px;
     margin-top: 52px;
     background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url('/src/images/inteko.jpg');
+    background-size: cover;    
     z-index: 2;
+}
+
+.company-image_1 {
+    background-image: url('/src/images/company_offer_1.jpg');
+}
+
+.company-image_2 {
+    background-image: url('/src/images/company_offer_2.jpg');
+}
+.company-image_3 {
+    background-image: url('/src/images/company_offer_3.jpg');
+}
+.company-image_4 {
+    background-image: url('/src/images/company_offer_4.jpg');
+}
+.company-image_5 {
+    background-image: url('/src/images/company_offer_5.jpg');
+}
+.company-image_6 {
+    background-image: url('/src/images/company_offer_6.jpg');
+}
+.company-image_7 {
+    background-image: url('/src/images/company_offer_7.jpg');
+}
+.company-image_8 {
+    background-image: url('/src/images/company_offer_8.jpg');
+}
+.company-image_9 {
+    background-image: url('/src/images/company_offer_9.jpg');
+}
+.company-image_10 {
+    background-image: url('/src/images/company_offer_10.jpg');
+}
+.company-image_11 {
+    background-image: url('/src/images/company_offer_11.jpg');
+}
+
+.company-image-hidden{
+    display: none;
 }
 
 @media (min-width: 1020px) and (max-width: 1339px) {
@@ -29,7 +67,6 @@
         width: 93.33%;
         height: auto;
         margin-top: 0px;
-        background-image: url('/src/images/company_offer_mobile.jpg');
     }
 
     .company-offer__main-block_image::before {

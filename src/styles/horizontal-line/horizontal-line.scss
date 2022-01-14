@@ -57,6 +57,28 @@
 
 @media (max-width: 699px) {
     .horizontal-line {    
-        display: none;
+        height: 1px;
+        position: absolute;
+        background-image: url('/src/images/horizontal_line.jpg');  
+    }
+    .our-project-line {
+        width: 96.5%;
+        top: 1441px;
+        left: 3.2%;
+    }
+    .inteco-now-line {
+        width: 11px;
+        top: 1815px;
+        left: 0%;
+    }
+    .inteco-now-line-2 {
+        width: 96.8%;
+        top: 2353px;
+        left: 3.2%;
+    }
+    .company-offer-line {
+        width:  11px;
+        left: 0%;
+        top: 2943px
     }
 }

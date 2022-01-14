@@ -1,9 +1,32 @@
-.company-offer__main-block_dots {
-    display: flex;
-    position: relative;
-    justify-content: center;
-}
 
-.company-offer__main-block_dots-image {
-    
+@media (max-width: 699px) {
+    .company-offer__main-block_dots {
+        display: flex;
+        position: relative;
+        justify-content: center;
+        z-index: 4;
+        margin-top: -60px;
+        margin-left: -13px;
+        height: 15px;
+        cursor: pointer;
+    }
+
+    .company-offer__main-block_dots-image {
+        width: 6px;
+        height: 6px;
+        background-image: url(/src/images/ecpilse_white.png);
+        margin-right: 9px;
+        margin-top: 2px;
+    }
+
+    .choosen-white {
+        width: 10px;
+        height: 10px;
+        align-items: center;
+        display: flex;
+        position: relative;
+        margin-bottom: 10px;
+        background-image: url(/src/images/ecpilse_white_choosen.png);
+        margin-top: 0px;
+    }
 }

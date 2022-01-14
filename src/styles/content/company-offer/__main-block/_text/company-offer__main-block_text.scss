@@ -87,6 +87,27 @@
     .company-offer__main-block_text {
         width: 93.33%;
         margin-left: 6.67%;
-        margin-top: -40px
+        margin-top: 5px
+    }
+
+    .company-offer__main-block_text ul {
+        margin-top: 28px;
+        padding-left: 42px;
+    }
+
+    .company-offer__main-block_text li {
+        font-size: 12px;
+        line-height: 18px;
+        margin-bottom: 8px;
+        max-width: 98%;
+    }
+    .company-offer__main-block_text li::before {
+        content: "—";
+        font-size: 12px;
+        font-weight: 700;
+        left: -10px;
+        line-height: 18px; 
+        position: relative;
+        margin-left: -10px;
     }
 }

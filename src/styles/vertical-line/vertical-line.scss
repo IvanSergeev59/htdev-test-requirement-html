@@ -43,7 +43,22 @@
 }
 
 @media (max-width: 699px) {
-    .vertical-line {
-        display: none;
+    .vertical-line {        
+        width: 1px;
+    }
+    .we-are-line {
+        left: 3.2%;
+        top: 83px;
+        height: 1358px;
+    }
+    .inteco-now-vertical-line {
+        height: 538px;
+        left: 3.2%;
+        top: 1815px;
+    }
+    .company-offer-vertical-line {
+        height: 1000px;
+        left: 3.2%;
+        top: 2943px
     }
 }

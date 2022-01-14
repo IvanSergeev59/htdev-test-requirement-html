@@ -6,8 +6,9 @@
 .main-principles__main-block_text p {
     margin: 0px;
     width: 100%;
-    margin-top: 30px;
+    margin-top: 31px;
 }
+
 
 @media (min-width: 1020px) and (max-width: 1339px) {
     .main-principles__main-block_text p {
@@ -28,13 +29,11 @@
         width: 89.72%;
         margin: 0 auto;
         margin-top: 16px;
-        margin-left: 7%
+        margin-left: 7%;
     }
     .main-principles__main-block_text p {
         margin-top: 0px;
     }
 
-    .text-1 {
-        display: none;
-    }
+   
 }
